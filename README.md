@@ -1,4 +1,4 @@
-# JAVA Crash Course
+# CSci Crash Course
 
 ## Getting Started
 Welcome to the Java Crash Course by Neko'z. Below is instructions to get started, list of lessons, and some useful
@@ -18,13 +18,15 @@ IntelliJ IDEA Community Edition
 WIP
 
 ## Lessons (WIP)
-1) Variables, Data Types, and Print Statements
+1) [Variables, Data Types, and Print Statements](src/Lesson1/Lesson01.md)
 2) Boolean Algebra, Conditionals, and Switches
-3) Arrays, Lists, Loops
-4) Functions and Recursion
+3) Functions
+4) Arrays, Lists, Loops, and Recursion
 5) Streams and Files
    1) User Input
-   2) FileIO
+   2) File I/O
+   3) Try Catch Statements
+   4) Parsing Strings
 6) Objects
 7) Inheritance and Polymorphism
 8) Intro to Processing
@@ -37,6 +39,24 @@ WIP
     1) Sockets and Networking (TCP/UDP)
     2) Server
     3) Client
+11) ???
+
+#### Advanced Topics (Based on Interest)
+12) Algorithms and Big-O
+13) Data Structures
+14) Multi-Threading
+15) Scripting and Data Analysis
+    1) Intro to Python
+    2) Basic UI (Tkinters)
+    3) PIP, Numpy, and Matplotlib
+    4) Basic Machine Learning (DIY neural network)
+    5) Data Analysis Project
+    6) Lexing and Parsing
+16) Embeded Systems
+    1) Intro to Arduino and C++
+    2) I/O and Interfaces
+    3) Non-Blocking Practices
+    4) Signal Debouncing and PWMs
 
 ## Credits
 
