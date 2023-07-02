@@ -69,7 +69,7 @@ Arithmetic
 - Multiplication `*`: multiplies two numbers by each other `2 * 3` returns `6`
 - Division `/`: divides one number by another `3.0 / 2.0` returns `1.5` and `3 / 2` returns `1`
 Beware losing precision due to using wrong types!
-- Modulus '%': divides one number by another number and returns the remainder `3 % 2` returns `2`
+- Modulus `%`: divides one number by another number and returns the remainder `3 % 2` returns `2`
 
 Boolean (Logic) Arithmetic
 - Not `!`
@@ -135,7 +135,6 @@ private members start with underscore)
 
 #### Problem 01
 Calc area (in^2) of a circle given the radius (in). Print both values to the terminal. Bonus for using Java's Pi
-#### Problem 02
 
 
 ## Other Resources
