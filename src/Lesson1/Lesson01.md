@@ -13,6 +13,7 @@ one word. Many naming conventions are used, but the most common is camel case wh
 
 Fun Fact: in some languages other than Java, it is required to manually delete a
 variable after creating it. Forgetting to do this is commonly know as a memory leak.
+
 --- 
 #### Built-in Types
 *Integer*: a positive or negative whole number. Example: -1, 1, 34, 0
