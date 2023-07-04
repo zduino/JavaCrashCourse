@@ -68,7 +68,8 @@ if (true) {
     // and false is passed into the second if statement.
 }
 ```
-
+*Note:* You can add as many `else if` statements to the conditional chain as needed, but you can only have one starting `if` and
+ending `else`.
 
 ## Post Lesson Review
 
