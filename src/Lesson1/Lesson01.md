@@ -5,6 +5,25 @@ An IDE is an Integrated Development Environment. This is a fancy text editor tha
 tools and functions that aid in writing and reading code. There are several IDE's out there, many are language
 specific. Ultimately, it is the user's preference when selecting one to use.
 
+### Writing messages to the screen
+The first function (command) we will look at is the `println` command. This function allows us to send data to the screen
+we can read while the program is running. To make a `println` call, we first need to tell the computer where we want to
+send the message/data. In this case, that is the System output file stream, or more commonly called, the console. After
+we preface our call with this we then tell it what we want to do with this object, print something.
+```java
+System.out.println("Hello World!");
+```
+This is a very important function that we will use all the time. In fact, we use it so much there is a shortcut to
+that the IDE has to write it faster. Type the word `sout` followed by pressing `TAB` key. The IDE should automatically
+replace `sout` with `System.out.println()`. Pretty cool, right?
+
+The ln at the end of println means it will append a new line character at the end of the data it is sending to the
+console. This is the equivalent of pressing the enter key after you are done writing a line. There is a variant or
+println which is print that will not add a new line character. This is normally used when you have multiple prints that
+you want all on the same line of the terminal.
+
+We will talk about getting input from the console in a later lesson.
+
 ### How does the computer store data?
 The computer stores all data as numbers in its memory, called RAM. In java, we can tell the computer to allocate space
 in its memory by specify what type of data we want to store and what label we want to give that space. This label is
@@ -101,6 +120,10 @@ Declaration and Assignment
 String
 - Length `myStr.length()`: Gets the number of characters in the string
 - Equals `myStr.equals(myOtherStr)`: Compares the values of two strings
+
+Program output stream
+- Print `System.out.print("My string")`: prints the arguments to the console
+- Print New Line `System.out.println("My string")`: prints the arguments to the console followed by a new line character
 
 ### Code Readability
 Many programmers become very opinionated when it comes to the syntax and structure one should use while writing a
