@@ -20,7 +20,7 @@ WIP
 ## Lessons (WIP)
 1) [Variables, Data Types, and Print Statements](src/Lesson1/Lesson01.md)
 2) [Boolean Algebra, Conditionals, and Switches](src/Lesson2/Lesson02.md)
-3) Functions
+3) [Functions](src/Lesson3/Lesson03.md)
 4) Arrays, Lists, Loops, and Recursion
 5) Streams and Files
    1) User Input
