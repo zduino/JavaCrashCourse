@@ -2,7 +2,6 @@ package Lesson2;
 
 public class Lesson02 {
     public static void main(String[] args) {
-
         double temp_f = 78.0;
         double temp_c = (temp_f - 32.0) * 5.0 / 9.0;
         System.out.println("The temperature is " + temp_c + "°C");
@@ -38,5 +37,11 @@ public class Lesson02 {
         System.out.println("This line always run");
 
         // takes an integer x print whether x is a div by 3 or not
+        int x = 21;
+        if (x % 3 == 0) {
+            System.out.println("x is divisible by 3");
+        } else {
+            System.out.println("x is not a multiple of 3.");
+        }
     }
 }
