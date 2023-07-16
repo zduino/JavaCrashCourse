@@ -15,6 +15,18 @@ public class Lesson03 {
         System.out.println(add(2, 4, 4));
 
         // Create a function takes 3 double and returns the largest one. Print the value that is returned by your function.
+        double result = maxValue(0, 1, -1);
+        System.out.println("The largest value was " + result);
+    }
+
+    static double maxValue(double x, double y, double z) {
+        if (x > y && x > z) {
+            return x;
+        } else if (y > x && y > z) {
+            return y;
+        } else {
+            return z;
+        }
     }
 
     static int add(int x, int y) {
