@@ -101,3 +101,21 @@ arr[2] = -7
 arr[3] = 0
 arr[4] = 50
 ```
+
+### After Lesson Review
+Write a function that take in an integer array and outputs the sum of all the elements, squared, in the array, squared called
+`sumOfSquares`.
+
+Example Usage:
+```java
+public static void main(String[] args) {
+    int[] myArr = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+    int result = sumOfSquares(myArr);
+    System.out.println("Sum of Squares for myArr is " + result);
+}
+```
+
+Expected Output:
+```
+Sum of Squares for myArr is 385
+```
