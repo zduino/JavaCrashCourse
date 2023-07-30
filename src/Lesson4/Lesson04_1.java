@@ -1,6 +1,6 @@
 package Lesson4;
 
-public class Lesson04 {
+public class Lesson04_1 {
     // global variable are outside of functions
 
     public static void main(String[] args) {
